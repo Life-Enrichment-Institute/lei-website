@@ -25,10 +25,10 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #092a49;
+    color: #ff7733;
     outline: none;
     text-decoration: none;
-}
+} #092a49
 
 .btn:focus,
 .form-control:focus {
