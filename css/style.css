@@ -117,7 +117,7 @@ a:focus {
 } #ffffff
 
 .top-bar .text h2 {
-    color: #ff7733;
+    color:  #eeeeee;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
@@ -125,7 +125,7 @@ a:focus {
 } #eeeeee
 
 .top-bar .text p {
-    color: #ff7733;
+    color:  #eeeeee;
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 0 5px;
