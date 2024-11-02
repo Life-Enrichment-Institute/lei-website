@@ -787,13 +787,13 @@ a:focus {
 .feature .counters i {
     padding: 5px 15px 0 0;
     font-size: 28px;
-    color: #0796fe;
+    color: #ff7733;
 }
 
 .feature .counters h2 {
     position: relative;
     display: inline-block;
-    color: #0796fe;
+    color: #ff7733;
     font-size: 30px;
     font-weight: 300;
 }
@@ -806,10 +806,10 @@ a:focus {
 }
 
 .feature .counters p {
-    color: #092a49;
+    color: #ff7733;
     font-size: 20px;
     margin: 0;
-}
+} #092a49
 
 
 /*******************************/
