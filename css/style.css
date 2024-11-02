@@ -13,7 +13,7 @@ h3,
 h4,
 h5, 
 h6 {
-    color: #6AFF4D;
+    color: #6aff4d;
     font-family: 'Oswald', sans-serif;
 } #092a49
 
@@ -184,11 +184,11 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 5;
-    color: #6AFF4D;
+    color: #ff7733;
     font-size: 25px;
     line-height: 0px;
     font-weight: 200;
-}
+} #6AFF4D
 
 .navbar .navbar-brand img {
     max-width: 100%;
@@ -200,14 +200,14 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
-    color: #ffffff;
-}
+    color: #6aff4d ;
+} #ffffff
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #0796fe;
+    color: #ff7733;
     transition: none;
-}
+} #0796fe
 
 .navbar .dropdown-menu {
     margin-top: 0;
