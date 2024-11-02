@@ -117,15 +117,15 @@ a:focus {
 }
 
 .top-bar .text h2 {
-    color: #eeeeee;
+    color: #ff7733;
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 1px;
     margin: 0;
-}
+} #eeeeee
 
 .top-bar .text p {
-    color: #eeeeee;
+    color: #ff7733;
     font-size: 14px;
     font-weight: 400;
     margin: 0 0 0 5px;
