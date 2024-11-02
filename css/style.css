@@ -184,7 +184,7 @@ a:focus {
 
 .navbar .navbar-brand {
     margin: 5;
-    color: #ffffff;
+    color: #6AFF4D;
     font-size: 25px;
     line-height: 0px;
     font-weight: 200;
@@ -222,9 +222,9 @@ a:focus {
         width: 100%;
         top: 35px;
         padding: 20px 60px;
-        background: rgba(9, 42, 73, .2)!important;
+        background: rgb(0.87,1.00,0.60, .2)!important;
         z-index: 9;
-    }
+    } rgba(9, 42, 73, .2)
     
     .navbar.nav-sticky {
         padding: 10px 60px;
@@ -232,8 +232,8 @@ a:focus {
     }
     
     .page .navbar {
-        background: #092a49 !important;
-    }
+        background: #E1FF4D !important;
+    } #092a49
     
     .navbar a.nav-link {
         padding: 8px 15px;
