@@ -705,9 +705,9 @@ a:focus {
 .service .service-item a {
     position: relative;
     font-size: 16px;
-    color: #0796fe;
+    color: #ff7733;
     transition: .3s;
-}
+} #0796fe
 
 .service .service-item a::after {
     content: "";
@@ -806,7 +806,7 @@ a:focus {
 }
 
 .feature .counters p {
-    color: #ff7733;
+    color: #092a49;
     font-size: 20px;
     margin: 0;
 } #092a49
