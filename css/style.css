@@ -112,9 +112,9 @@ a:focus {
 
 .top-bar .text i {
     font-size: 14px;
-    color: #ffffff;
+    color: #ff7733;
     margin-right: 5px;
-}
+} #ffffff
 
 .top-bar .text h2 {
     color: #ff7733;
@@ -228,11 +228,11 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #092a49 !important;
-    }
+        background: #ff7733 !important;
+    } #092a49
     
     .page .navbar {
-        background: #E1FF4D !important;
+        background: #e1ff4d !important;
     } #092a49
     
     .navbar a.nav-link {
