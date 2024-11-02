@@ -80,8 +80,8 @@ a:focus {
 .top-bar {
     position: relative;
     height: 35px;
-    background-image: linear-gradient(to right, #0796fe, #092a49);
-}
+    background-image: linear-gradient(to right, #55FF33, #E1FF4D);
+} #0796fe, #092a49
 
 .top-bar .top-bar-left {
     display: flex;
