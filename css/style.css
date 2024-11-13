@@ -100,7 +100,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 35px;
+    height: 20px;
     padding: 0 10px;
     text-align: center;
     border-left: 1px solid rgba(255, 255, 255, .15);
@@ -767,7 +767,7 @@ a:focus {
 .feature .feature-img img {
     position: relative;
     max-width: 95%;
-    max-height: 50%;
+    max-height: 90%;
     margin: 0 30px 30px 30px;
     z-index: 2;
 }
