@@ -8,14 +8,17 @@ body {
 }
 
 h1,
-h2, 
-h3, 
+h2,
 h4,
 h5, 
 h6 {
     color: #6aff4d;
     font-family: 'Oswald', sans-serif;
 } #092a49
+h3 {
+    color: #ff7733;
+    font-family: 'Oswald', sans-serif;
+}
 
 a {
     color: #454545;
