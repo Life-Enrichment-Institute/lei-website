@@ -380,10 +380,10 @@ a:focus {
     align-items: center;
     justify-content: center;
     color: #0796fe;
-    background: #092a49;
+    background: transparent;
     font-size: 22px;
     transition: .3s;
-}
+} #092a49
 
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
