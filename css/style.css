@@ -387,9 +387,10 @@ a:focus {
 
 .carousel .owl-nav .owl-prev:hover,
 .carousel .owl-nav .owl-next:hover {
+    background: var(--primary);
+    border-color: var(--primary);
     color: #ffffff;
-    background: #0796fe;
-}
+} background: #0796fe;
 
 .carousel .owl-nav .owl-prev {
     margin-right: 2px;
