@@ -190,7 +190,10 @@ a:focus {
     color: #ff7733;
     font-size: 35px;
     line-height: 0px;
-    font-weight: 200;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-type: lobster-two-regular-italic;
 } #6AFF4D
 
 .lobster-two-regular-italic {
