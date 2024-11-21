@@ -188,10 +188,16 @@ a:focus {
 .navbar .navbar-brand {
     margin: 5;
     color: #ff7733;
-    font-size: 25px;
+    font-size: 35px;
     line-height: 0px;
     font-weight: 200;
 } #6AFF4D
+
+.lobster-two-regular-italic {
+  font-family: "Lobster Two", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
 
 .navbar .navbar-brand img {
     max-width: 100%;
