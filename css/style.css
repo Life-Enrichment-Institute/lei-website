@@ -303,9 +303,9 @@ a:focus {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(9, 42, 73, .7);
+    background: transparent;
     z-index: 1;
-}
+} rgba(9, 42, 73, .7)
 
 .carousel .carousel-img img {
     width: 100%;
