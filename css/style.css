@@ -534,6 +534,25 @@ a:focus {
     .register-link:hover {
       background-color: #0056b3;
     }
+
+    .hide-button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 12px;
+      background-color: #dc3545;
+      color: #fff;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hide-button:hover {
+      background-color: #b02a37;
+    }
 /*******************************/
 /******* Section Header ********/
 /*******************************/
