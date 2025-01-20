@@ -96,17 +96,21 @@
         }, timeUntilDeadline);
       }
     }
-
-    // Set the deadline (Year, Month (0-based), Day, Hour, Minute, Second)
-    document.addEventListener('DOMContentLoaded', () => {
-      const deadline = new Date(2025, 0, 31, 23, 59, 59); // Example: January 31, 2025, 23:59:59
-      hidePosterAfterDeadline(deadline);
-    });
     // Function to hide the poster manually during a user's session
     function hidePosterManually() {
       const poster = document.querySelector('.floating-poster');
       poster.style.display = 'none';
     }
+    // Add event listener for manual hide button
+    document.addEventListener('DOMContentLoaded', () => {
+      const closeButton = document.querySelector('.close-button');
+      closeButton.addEventListener('click', hidePosterManually);
+    // Set the deadline (Year, Month (0-based), Day, Hour, Minute, Second)
+    document.addEventListener('DOMContentLoaded', () => {
+      const deadline = new Date(2025, 0, 31, 23, 59, 59); // Example: January 31, 2025, 23:59:59
+      hidePosterAfterDeadline(deadline);
+    });
+    
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         autoplay: true,
