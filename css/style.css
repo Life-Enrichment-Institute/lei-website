@@ -487,7 +487,53 @@ a:focus {
     }
 }
 
+/* Floating poster container */
+    .floating-poster {
+      position: fixed;
+      top: 100px;
+      right: 20px;
+      width: 300px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border: 2px solid #007bff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+    }
 
+    /* Poster content */
+    .poster-header {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .poster-body {
+      margin-bottom: 15px;
+    }
+
+    .poster-image {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .register-link {
+      display: inline-block;
+      text-align: center;
+      padding: 10px 15px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .register-link:hover {
+      background-color: #0056b3;
+    }
 /*******************************/
 /******* Section Header ********/
 /*******************************/
