@@ -82,7 +82,26 @@
         time: 2000
     });
 
+    // Function to hide the poster when the deadline reaches
+    function hidePosterAfterDeadline(deadline) {
+      const poster = document.querySelector('.floating-poster');
+      const now = new Date();
 
+      if (now >= deadline) {
+        poster.style.display = 'none';
+      } else {
+        const timeUntilDeadline = deadline - now;
+        setTimeout(() => {
+          poster.style.display = 'none';
+        }, timeUntilDeadline);
+      }
+    }
+
+    // Set the deadline (Year, Month (0-based), Day, Hour, Minute, Second)
+    document.addEventListener('DOMContentLoaded', () => {
+      const deadline = new Date(2025, 0, 31, 23, 59, 59); // Example: January 31, 2025, 23:59:59
+      hidePosterAfterDeadline(deadline);
+    });
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         autoplay: true,
