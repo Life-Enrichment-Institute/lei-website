@@ -102,6 +102,11 @@
       const deadline = new Date(2025, 0, 31, 23, 59, 59); // Example: January 31, 2025, 23:59:59
       hidePosterAfterDeadline(deadline);
     });
+    // Function to hide the poster on button click
+    function hidePoster() {
+      const poster = document.querySelector('.floating-poster');
+      poster.style.display = 'none';
+    }
     // Testimonials carousel
     $(".testimonials-carousel").owlCarousel({
         autoplay: true,
