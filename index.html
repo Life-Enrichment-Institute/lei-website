@@ -673,5 +673,26 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+
+        <!-- Poster Script -->
+        <script>
+        function hidePosterManually() {
+            document.getElementById("adPoster").style.display = "none";
+        }
+
+        function autoHidePoster() {
+            const deadline = new Date("2025-03-13T11:29:59").getTime(); // Set your deadline here
+            const now = new Date().getTime();
+
+            if (now > deadline) {
+                document.getElementById("adPoster").style.display = "none";
+            }
+        }
+
+        // Run auto-hide on page load
+        window.onload = function() {
+            autoHidePoster();
+        };
+    </script>
     </body>
 </html>
